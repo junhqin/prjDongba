@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+
+    <link rel="stylesheet" href="../static/assets/vendor/semantic/semantic.min.css">
+    <link rel="stylesheet" href="../static/assets/vendor/bootstrap/css/bootstrap.css">
+    <style>
+        .a {
+            position: fixed;
+            width: 100%;
+            height: 70px;
+            line-height: 70px;
+            background-color: transparent;
+            top: 0;
+            border-width: 0;
+        }
+
+        .background {
+            background: linear-gradient(156.02deg, #ebf4fa, #f6f6f7 1080px);
+        }
+
+        .container {
+            align-self: center;
+        }
+
+        .ui.menu .item {
+            color: hsla(0,0%,5%,.66);
+        }
+
+        .ui.large.menu {
+            font-size: 16px;
+        }
+
+        .main {
+            padding-top: 70px;
+        }
+
+        body {
+            position: relative;
+        }
+
+        .ui.secondary.pointing.menu .item:hover {
+            border-bottom: 2px solid rgba(34, 36, 38, .15);
+        }
+
+        .right {
+            border-color: transparent !important;
+        }
+
+        .ui.secondary.pointing.menu {
+            border-width: 0px
+        }
+        .ui.secondary.menu .active.item{
+            background-color: lightskyblue;
+            color:white;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+<div class="background">
+    <div class="ui large secondary pointing menu a" style="z-index: 99;">
+        <div class="ui container">
+            <a class="item" style="margin-right:10px">首页</a>
+            <a class="active item" style="margin-right:10px" href="/contest/">词典</a>
+            <a class="item" style="margin-right:10px" href="/problem/list/">图文翻译</a>
+            <a class="item" style="margin-right:10px" href="/contest/gym/">作业</a>
+            <div class="right item">
+
+                <a class="ui inverted blue button" style="margin-right:10px" href="/login/?next=/">登入</a>
+                <a class="ui inverted blue button" href="/register/?next=/">注册</a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <div class="ui container" style="border: red 1px solid">
+            <div style="display:block;margin:20px 0 ;text-align: center">
+                <div class="ui buttons">
+                    <button class="ui active button">人文</button>
+                    <button class="ui button">人体</button>
+                    <button class="ui button">工具</button>
+                    <button class="ui button">饮食</button>
+                    <button class="ui button">衣饰</button>
+                    <button class="ui button">建筑</button>
+                    <button class="ui button">行动</button>
+                    <button class="ui button">武器</button>
+                    <button class="ui button">天文</button>
+                    <button class="ui button">地理</button>
+                    <button class="ui button">数学</button>
+                    <button class="ui button">兽类</button>
+                    <button class="ui button">鸟类</button>
+                    <button class="ui button">植物</button>
+                    <button class="ui button">宗教</button>
+                </div>
+
+
+                <div class="ui secondary  menu" style="background-color:white;border-radius: 5px;margin:10px 0">
+                    <a class="active item">人体</a>
+                    <a class="item ">工具</a>
+                    <a class="item">饮食 </a>
+                    <a class="item">衣饰 </a>
+                    <a class="item">建筑 </a>
+                    <a class="item">行动 </a>
+                    <a class="item">武器 </a>
+                    <a class="item">天文 </a>
+                    <a class="item">地理 </a>
+                    <a class="item">数学 </a>
+                    <a class="item b">兽类 </a>
+                    <a class="item b">鸟类 </a>
+                    <a class="item b">植物 </a>
+                    <a class="item b">宗教 </a>
+                </div>
+            </div>
+
+            <div style="width:100%;height:200px;border: yellow 2px solid;background-color:white;border-radius: 16px">
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="../static/assets/vendor/semantic/semantic.min.js"></script>
+<script src="../static/assets/vendor/jquery/jquery.min.js"></script>
+<script src="../static/assets/vendor/bootstrap/js/bootstrap.js"></script>
+<script>
+    window.addEventListener('scroll', function () {
+        // 在滚动事件触发时执行的代码
+        const scrollX = window.scrollX; // 获取水平方向的滚动条位置
+        const scrollY = window.scrollY; // 获取垂直方向的滚动条位置
+
+        if (scrollY > 0.1) $('.a').css({"background-color": "white", "border-width": "2px"});
+        else $('.a').css({"background-color": "transparent", "border-width": "0px"});
+        console.log(`水平方向滚动条位置：${scrollX}`);
+        console.log(`垂直方向滚动条位置：${scrollY}`);
+    });
+
+
+</script>
+
+
+</body>
+</html>
