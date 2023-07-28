@@ -19,7 +19,7 @@ def dictionary(request):
         print(words)
         items.append({"img":"../static/assets/img/dongba/Image/" + words[0] +".jpg" , "audio" : "../static/assets/img/dongba/Audio/" + words[0] + ".wav","meaning":words[1]})
 
-    return render(request, "../templates/dictionary.html", {"items": items})
+    return render(request, "../templates/dictionary.html", {"items": items,"s1":1})
 
 def dictionary_body(request):
     path = "./static/assets/img/dongba/Image/"

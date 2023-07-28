@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>home</title>
     <script type="text/javascript" src="../../static/assets/vendor/jquery/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../../static/assets/vendor/semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="../../static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="../../static/assets/vendor/bootstrap/css/bootstrap.css">
     <style>
@@ -20,7 +21,7 @@
         }
 
         .background {
-            background: linear-gradient(156.02deg, #ebf4fa, #f6f6f7 1080px);
+            background: linear-gradient(-180.26deg, #e7fafe -8.17%, #aee7fd)
         }
 
         .container {
@@ -70,6 +71,10 @@
             margin-top: 1em;
         }
 
+        .ui.card, .ui.cards > .card {
+            width: 263px;
+        }
+
     </style>
 </head>
 <body>
@@ -91,8 +96,8 @@
     </div>
 
     <div class="main">
-        <div class="ui  container" style="border: red 1px solid">
-            <div style="display:block;margin:20px 0 ;text-align: center;border: red 1px solid">
+        <div class="ui  container">
+            <div style="display:block;margin:20px 0 ;text-align: center;padding:10px">
                 <!--                <div class="ui buttons">-->
                 <!--                    <button class="ui active button">人文</button>-->
                 <!--                    <button class="ui button">人体</button>-->
@@ -112,7 +117,8 @@
                 <!--                </div>-->
 
 
-                <div class="ui secondary  menu" style="background-color:white;border-radius: 8px">
+                <div class="ui secondary  menu"
+                     style="padding:4px;background-color:white;border-radius: 8px;box-shadow:0 0 0 1px rgba(34,36,38,.15) inset">
                     <a class="item" href="/dictionary/">所有</a>
                     <a class="active item" href="/dictionary/body/">人体</a>
                     <a class="item">工具</a>
@@ -132,67 +138,86 @@
             </div>
 
             <div>
-
-
-                {% for item in items%}
-                <div class="col-md-6 ab-head1" style="float: left;padding-left: 0">
-                    <div class="item-img" style="border:red 1px solid;float:left;margin-right:10px">
-                        <img src={{item.img}}
-                             style="max-width:100%;height:auto;display:block;">
-                    </div>
-                    <div class="item-img" style="border:red 1px solid;float:left">
-                        <div class="media-body" style="margin-top:10px;margin-left: 10px">
-                            <h4 class="media-heading" style="font-size:36px">{{item.meaning}}</h4>
-                            <div style="margin-top:10px">
-                                <button class="ui primary button" onclick="p(this)">播放</button>
-                                <audio src={{item.audio}}></audio>
+                <div class="ui link cards">
+                    {% for item in items%}
+                    <div class="card">
+                        <div class="image item-img">
+                            <img src={{item.img}} style="width:100%;height:100%;display:block;">
+                        </div>
+                        <div class="content">
+                            <div class="header">{{item.meaning}}</div>
+                            <div class="meta">
+                                <a>好友</a>
                             </div>
-                            <div>
-                                <h4 class="media-heading" style="font-size:36px">ā</h4>
+                            <div class="description">
+                                Matthew is an interior designer living in New York.
                             </div>
                         </div>
+                        <div class="ui blue bottom attached button" onclick="p(this)"><i class="volume up icon"></i> 播放
+                        </div>
+                        <audio src={{item.audio}}></audio>
                     </div>
-
-                    <div class="clearfix"></div>
-
-                    <script></script>
+                    {% endfor %}
                 </div>
-                {% endfor %}
+
+                <!--                </div>-->
+                <!--                {% for item in items%}-->
+                <!--                <div class="col-md-6 ab-head1" style="float: left;padding-left: 0">-->
+                <!--                    <div class="item-img" style="border:red 1px solid;float:left;margin-right:10px">-->
+                <!--                        <img src={{item.img}}-->
+                <!--                             style="width:100%;height:100%;display:block;">-->
+                <!--                    </div>-->
+                <!--                    <div class="item-img" style="border:red 1px solid;float:left">-->
+                <!--                        <div class="media-body" style="margin-top:10px;margin-left: 10px">-->
+                <!--                            <h4 class="media-heading" style="font-size:36px">{{item.meaning}}</h4>-->
+                <!--                            <div style="margin-top:10px">-->
+                <!--                                <button class="ui primary button" onclick="p(this)">播放</button>-->
+
+                <!--                            </div>-->
+                <!--                            <div>-->
+                <!--                                <h4 class="media-heading" style="font-size:36px">ā</h4>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+
+                <!--                    <div class="clearfix"></div>-->
+
+                <!--                    <script></script>-->
+                <!--                </div>-->
+                <!--                {% endfor %}-->
+                <!--                <div class="clearfix"></div>-->
+                <!--            </div>-->
 
 
-                <div class="clearfix"></div>
             </div>
-
 
         </div>
     </div>
 
-</div>
+    <script type="text/javascript"
+            src="../../static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.min.js"></script>
+    <script type="text/javascript" src="../../static/assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+            // 在滚动事件触发时执行的代码
+            const scrollX = window.scrollX; // 获取水平方向的滚动条位置
+            const scrollY = window.scrollY; // 获取垂直方向的滚动条位置
+
+            if (scrollY > 0.1) $('.a').css({"background-color": "white", "border-width": "2px"});
+            else $('.a').css({"background-color": "transparent", "border-width": "0px"});
+            console.log(`水平方向滚动条位置：${scrollX}`);
+            console.log(`垂直方向滚动条位置：${scrollY}`);
+
+        });
 
 
-<script type="text/javascript" src="../../static/assets/vendor/semantic/semantic.min.js"></script>
-<script type="text/javascript" src="../../static/assets/vendor/bootstrap/js/bootstrap.js"></script>
-<script>
-    window.addEventListener('scroll', function () {
-        // 在滚动事件触发时执行的代码
-        const scrollX = window.scrollX; // 获取水平方向的滚动条位置
-        const scrollY = window.scrollY; // 获取垂直方向的滚动条位置
+    </script>
 
-        if (scrollY > 0.1) $('.a').css({"background-color": "white", "border-width": "2px"});
-        else $('.a').css({"background-color": "transparent", "border-width": "0px"});
-        console.log(`水平方向滚动条位置：${scrollX}`);
-        console.log(`垂直方向滚动条位置：${scrollY}`);
-
-    });
-
-
-</script>
-
-<script>
-    function p(obj) {
-        var voice = $(obj).next()[0];
-        voice.play();
-    }
-</script>
+    <script>
+        function p(obj) {
+            var voice = $(obj).next()[0];
+            voice.play();
+        }
+    </script>
 </body>
 </html>
