@@ -15,6 +15,7 @@
             background-color: transparent;
             top: 0;
             border-width: 0;
+            z-index: 99;
         }
 
         .background {
@@ -62,12 +63,12 @@
 </head>
 <body>
 <div class="background">
-    <div class="ui large secondary pointing menu a" style="z-index: 99;">
+    <div class="ui large secondary pointing menu a">
         <div class="ui container">
-            <a class="item" style="margin-right:10px">首页</a>
-            <a class="active item" style="margin-right:10px" href="/contest/">词典</a>
-            <a class="item" style="margin-right:10px" href="/problem/list/">图文翻译</a>
-            <a class="item" style="margin-right:10px" href="/contest/gym/">作业</a>
+            <a class="active item" style="margin-right:10px">首页</a>
+            <a class="item" style="margin-right:10px" href="/dictionary/">词典</a>
+            <a class="item" style="margin-right:10px" href="/translate/">图文翻译</a>
+
             <div class="right item">
 
                 <a class="ui inverted blue button" style="margin-right:10px" href="/login/?next=/">登入</a>
@@ -81,24 +82,6 @@
     <div class="main">
         <div class="ui container" style="border: red 1px solid">
             <div style="display:block;margin:20px 0 ;text-align: center">
-                <div class="ui buttons">
-                    <button class="ui active button">人文</button>
-                    <button class="ui button">人体</button>
-                    <button class="ui button">工具</button>
-                    <button class="ui button">饮食</button>
-                    <button class="ui button">衣饰</button>
-                    <button class="ui button">建筑</button>
-                    <button class="ui button">行动</button>
-                    <button class="ui button">武器</button>
-                    <button class="ui button">天文</button>
-                    <button class="ui button">地理</button>
-                    <button class="ui button">数学</button>
-                    <button class="ui button">兽类</button>
-                    <button class="ui button">鸟类</button>
-                    <button class="ui button">植物</button>
-                    <button class="ui button">宗教</button>
-                </div>
-
 
                 <div class="ui secondary  menu" style="background-color:white;border-radius: 5px;margin:10px 0">
                     <a class="active item">人体</a>

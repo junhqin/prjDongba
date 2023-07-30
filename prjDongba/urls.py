@@ -20,5 +20,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("home/",views.home),
     path("dictionary/",views.dictionary),
-    path("dictionary/body/",views.dictionary_body)
+    path("dictionary/body/",views.dictionary_body),
+    path("translate/",views.translate)
 ]

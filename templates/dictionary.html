@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css"
           href="../static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="../static/assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../static/assets/vendor/bootstrap/css/bootstrap.min.css">
     <style>
         .a {
             position: fixed;
@@ -81,10 +81,10 @@
 <div class="background">
     <div class="ui large secondary pointing menu a">
         <div class="ui container">
-            <a class="item" style="margin-right:10px">首页</a>
-            <a class="active item" style="margin-right:10px" href="/contest/">词典</a>
-            <a class="item" style="margin-right:10px" href="/problem/list/">图文翻译</a>
-            <a class="item" style="margin-right:10px" href="/contest/gym/">作业</a>
+            <a class="item" style="margin-right:10px" href="/home/">首页</a>
+            <a class="active item" style="margin-right:10px" href="/dictionary/">词典</a>
+            <a class="item" style="margin-right:10px" href="/translate/">图文翻译</a>
+
             <div class="right item">
 
                 <a class="ui inverted blue button" style="margin-right:10px" href="/login/?next=/">登入</a>
@@ -97,45 +97,28 @@
 
     <div class="main">
         <div class="ui  container">
-            <div style="display:block;margin:20px 0 ;text-align: center;">
-                <!--                <div class="ui buttons">-->
-                <!--                    <button class="ui active button">人文</button>-->
-                <!--                    <button class="ui button">人体</button>-->
-                <!--                    <button class="ui button">工具</button>-->
-                <!--                    <button class="ui button">饮食</button>-->
-                <!--                    <button class="ui button">衣饰</button>-->
-                <!--                    <button class="ui button">建筑</button>-->
-                <!--                    <button class="ui button">行动</button>-->
-                <!--                    <button class="ui button">武器</button>-->
-                <!--                    <button class="ui button">天文</button>-->
-                <!--                    <button class="ui button">地理</button>-->
-                <!--                    <button class="ui button">数学</button>-->
-                <!--                    <button class="ui button">兽类</button>-->
-                <!--                    <button class="ui button">鸟类</button>-->
-                <!--                    <button class="ui button">植物</button>-->
-                <!--                    <button class="ui button">宗教</button>-->
-                <!--                </div>-->
 
-
+            <div style="margin:20px 0;text-align: center;">
                 <div class="ui secondary  menu" style="background-color:white;border-radius: 8px">
-
-                    <a class="active item" href="/dictionary/?page={{ s1 }}">所有</a>
-                    <a class="item" href="/dictionary/body/">人体</a>
-                    <a class="item">工具</a>
-                    <a class="item">饮食 </a>
-                    <a class="item">衣饰 </a>
-                    <a class="item">建筑 </a>
-                    <a class="item">行动 </a>
-                    <a class="item">武器 </a>
-                    <a class="item">天文 </a>
-                    <a class="item">地理 </a>
-                    <a class="item">数学 </a>
-                    <a class="item">兽类 </a>
-                    <a class="item">鸟类 </a>
-                    <a class="item">植物 </a>
-                    <a class="item">宗教 </a>
+                    <a class="item" href="/dictionary/?field=all" id="all">所有</a>
+                    <a class="item" href="/dictionary/?field=body" id="body">人体</a>
+                    <a class="item" href="/dictionary/?field=tool" id="tool">工具</a>
+                    <a class="item" href="/dictionary/?field=food" id="food">饮食 </a>
+                    <a class="item" href="/dictionary/?field=cloth" id="cloth">衣饰 </a>
+                    <a class="item" href="/dictionary/?field=arch" id="arch">建筑 </a>
+                    <a class="item" href="/dictionary/?field=action" id="action">行动 </a>
+                    <a class="item" href="/dictionary/?field=weapon" id="weapon">武器 </a>
+                    <a class="item" href="/dictionary/?field=astronomy" id="astronomy">天文 </a>
+                    <a class="item" href="/dictionary/?field=geo" id="geo">地理 </a>
+                    <a class="item" href="/dictionary/?field=math" id="math">数学 </a>
+                    <a class="item" href="/dictionary/?field=animal" id="animal">兽类 </a>
+                    <a class="item" href="/dictionary/?field=bird" id="bird">鸟类 </a>
+                    <a class="item" href="/dictionary/?field=plant" id="plant">植物 </a>
+                    <a class="item" href="/dictionary/?field=religion" id="religion">宗教 </a>
+                    <script type="text/javascript">
+                        $("#{{field}}").addClass("active");
+                    </script>
                 </div>
-
             </div>
 
             <div>
@@ -162,34 +145,51 @@
                 </div>
             </div>
 
+            <div style="text-align: center;padding:70px 0">
+                <div class="ui pagination menu">
+                    <script type="text/javascript">
+                        for (step = 1; step <= '{{page_num}}'; step++) {
+                            if (step == '{{page}}'){
+                                document.write("<div class=\"active item\"><a href=\"./?field={{field}}&page="+step+"\">"+step+"</a></div>");
+                            }else{
+                                document.write("<div class=\"item\"><a href=\"./?field={{field}}&page="+step+"\">"+step+"</a></div>");
+                            }
+                        }
+                    </script>
+
+                </div>
+
+
+            </div>
+
         </div>
     </div>
+</div>
+
+<script type="text/javascript"
+        src="../static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.min.js"></script>
+<script type="text/javascript" src="../static/assets/vendor/bootstrap/js/bootstrap.js"></script>
+<script>
+    window.addEventListener('scroll', function () {
+        // 在滚动事件触发时执行的代码
+        const scrollX = window.scrollX; // 获取水平方向的滚动条位置
+        const scrollY = window.scrollY; // 获取垂直方向的滚动条位置
+
+        if (scrollY > 0.1) $('.a').css({"background-color": "white", "border-width": "2px"});
+        else $('.a').css({"background-color": "transparent", "border-width": "0px"});
+        console.log(`水平方向滚动条位置：${scrollX}`);
+        console.log(`垂直方向滚动条位置：${scrollY}`);
+
+    });
 
 
-    <script type="text/javascript"
-            src="../static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.min.js"></script>
-    <script type="text/javascript" src="../static/assets/vendor/bootstrap/js/bootstrap.js"></script>
-    <script>
-        window.addEventListener('scroll', function () {
-            // 在滚动事件触发时执行的代码
-            const scrollX = window.scrollX; // 获取水平方向的滚动条位置
-            const scrollY = window.scrollY; // 获取垂直方向的滚动条位置
+</script>
 
-            if (scrollY > 0.1) $('.a').css({"background-color": "white", "border-width": "2px"});
-            else $('.a').css({"background-color": "transparent", "border-width": "0px"});
-            console.log(`水平方向滚动条位置：${scrollX}`);
-            console.log(`垂直方向滚动条位置：${scrollY}`);
-
-        });
-
-
-    </script>
-
-    <script>
-        function p(obj) {
-            var voice = $(obj).next()[0];
-            voice.play();
-        }
-    </script>
+<script>
+    function p(obj) {
+        var voice = $(obj).next()[0];
+        voice.play();
+    }
+</script>
 </body>
 </html>
