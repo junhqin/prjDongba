@@ -4,12 +4,206 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e9ff0ca-dfa2-435e-bc62-158ad769f6fb" name="Changes" comment="再删除了一些无用的文件夹">
+    <list default="true" id="1e9ff0ca-dfa2-435e-bc62-158ad769f6fb" name="Changes" comment="完成了分类和分页功能">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/17b529ce262944c5b1de6b11a6634ddc图7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/324fc274adbeecf4da3483a6ce5fc067图4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/4573b1a0d272b426d6cb2b9d6a51cf26图7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/80fd6d75b59d28bc6642482cc91a8611图9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/8638eb48500228b304cd0ed4778351ba图7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/a906510a0553b16c0e9cc59c1c1a752d图7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/b851a57e8287111297b39ec4734cb64f图6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/c0247cb3807689f6e3f4363de76e1f7b图6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/ddaa118ea47c6b55149770a4fb142878图7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/e07d318234fc22cd34f7aac9253108ff图7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/eae08f0ae1acaa8c76a0b5119f9c0a72图7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/图1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/图2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/图4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/img/图9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/default_re_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/default_user_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/.versions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/accordion.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/ad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/ad.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/api.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/breadcrumb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/button.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/card.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/checkbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/checkbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/colorize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/colorize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/comment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/comment.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/container.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dimmer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dimmer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dimmer.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dimmer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/divider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/divider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dropdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/dropdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/embed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/embed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/embed.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/embed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/feed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/feed.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/flag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/flag.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/form.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/header.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/icon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/image.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/input.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/item.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/label.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/label.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/list.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/loader.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/menu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/message.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/message.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/modal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/modal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/nag.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/nag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/nag.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/nag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/placeholder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/placeholder.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/popup.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/progress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/progress.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/progress.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/rail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/rail.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/rating.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/rating.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/reset.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/reveal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/reveal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/search.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/search.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/segment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/segment.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/shape.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/shape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/shape.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/shape.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sidebar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sidebar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/site.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/site.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/state.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/statistic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/statistic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/step.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sticky.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sticky.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/sticky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/tab.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/tab.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/transition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/transition.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/transition.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/video.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/visibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/visibility.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/visit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/components/visit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/semantic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/brand-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/brand-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/brand-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/brand-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/brand-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/outline-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/outline-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/outline-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/outline-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/fonts/outline-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/vendor/semantic/Semantic-UI-CSS-master/themes/default/assets/images/flags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/translate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prjDongba/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/prjDongba/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prjDongba/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/prjDongba/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dictionary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +244,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/PythonProjects/dongba/prjDongba/templates",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PythonProjects/dongba/prjDongba/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PythonProjects\dongba\prjDongba\templates" />
@@ -84,6 +278,8 @@
       <workItem from="1690095940803" duration="5753000" />
       <workItem from="1690179625152" duration="5634000" />
       <workItem from="1690446941985" duration="14066000" />
+      <workItem from="1690782064744" duration="2477000" />
+      <workItem from="1690788114062" duration="46271000" />
     </task>
     <task id="LOCAL-00001" summary="字典功能">
       <option name="closed" value="true" />
@@ -149,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690551365651</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完成了分类和分页功能">
+      <option name="closed" value="true" />
+      <created>1690718978525</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690718978525</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +375,7 @@
     <MESSAGE value="add gitigore" />
     <MESSAGE value="删除无用的文件夹" />
     <MESSAGE value="再删除了一些无用的文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="再删除了一些无用的文件夹" />
+    <MESSAGE value="完成了分类和分页功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了分类和分页功能" />
   </component>
 </project>
